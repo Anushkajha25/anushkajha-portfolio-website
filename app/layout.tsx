@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { Instrument_Serif, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { Navigation } from "@/components/Navigation";
 import { RevealObserver } from "@/components/Reveal";
 import { site } from "@/data/site";
@@ -29,7 +30,13 @@ export const metadata: Metadata = {
     title: `${site.name} · AI/ML Engineer`,
     description: site.description,
     type: "website",
-    images: [{ url: site.portrait, width: 292, height: 392 }],
+    url: "/",
+    siteName: site.name,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${site.name} · AI/ML Engineer`,
+    description: site.description,
   },
 };
 
@@ -51,6 +58,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <Navigation />
         <main>{children}</main>
         <RevealObserver />
+        <Analytics />
       </body>
     </html>
   );
