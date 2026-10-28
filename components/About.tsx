@@ -38,7 +38,7 @@ export function About() {
             </div>
           </div>
           <div className="card photo-card">
-            <Image src={site.portrait} alt="Anushka Jha" width={642} height={856} sizes="(max-width: 899px) 90vw, 290px" />
+            <Image src={site.portrait} alt="Anushka Jha" width={460} height={880} sizes="(max-width: 899px) 90vw, 290px" />
           </div>
         </div>
 
