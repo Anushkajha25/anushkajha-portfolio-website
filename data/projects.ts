@@ -248,7 +248,11 @@ export const projects: Project[] = [
                   href: "http://www.cbsr.ia.ac.cn/english/Gait%20Databases.asp",
                   note: "CBSR, Chinese Academy of Sciences",
                 },
-                { label: "GitHub", note: "[CONTENT NEEDED] repository link, once the code is pushed" },
+                {
+                  label: "GitHub: gait-condition-classifier",
+                  href: "https://github.com/Anushkajha25/gait-condition-classifier",
+                  note: "Reproducible walking-condition pipeline",
+                },
               ],
             },
           ],

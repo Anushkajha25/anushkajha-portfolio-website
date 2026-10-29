@@ -1,5 +1,11 @@
 # Anushka Jha — Portfolio
 
+**Live:** [anushka-jha.vercel.app](https://anushka-jha.vercel.app) · **GitHub:** [@Anushkajha25](https://github.com/Anushkajha25)
+
+The personal site of Anushka Jha, an AI/ML engineer. It has case studies of her gait-classification
+research, an LLM resume-extraction pipeline, a published water-quality classification chapter and
+an Android health-monitoring app.
+
 Next.js (App Router) · React · TypeScript · Tailwind CSS v4. No animation libraries.
 
 ## Run it
